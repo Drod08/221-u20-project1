@@ -1,5 +1,7 @@
 body {
-	
+	background-image: url("/images/campus.png");
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 
 #splash_title {
@@ -18,9 +20,14 @@ body {
     cursor: pointer;
     text-align: center;
     user-select: none;
+    border-style: dotted;
 }
 
 .background_button {
     border-radius: 12px;
     padding: 16px 20px;
+}
+#heading {
+	text-decoration-color: black;
+
 }
